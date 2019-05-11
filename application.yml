@@ -1,0 +1,14 @@
+appconfig:
+   baseUrl: http://192.168.0.100:15555/
+   lib: 5
+   startIndex: 1100
+   endIndex: 2500
+   selectionSize: 2
+   saveDir: images
+
+logging:
+  file: application.log
+  level:
+    ro.vdin: DEBUG
+    #org.apache.http: DEBUG
+    #org.apache.http.wire: WARN
